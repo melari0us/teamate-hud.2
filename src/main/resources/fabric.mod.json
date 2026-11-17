@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "teammate-hud",
+  "version": "${version}",
+  "name": "Teammate Status HUD",
+  "description": "Displays teammates' health, armor durability, and distance.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.teammatehud.TeammateHudClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
